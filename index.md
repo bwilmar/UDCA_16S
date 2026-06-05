@@ -1,5 +1,56 @@
 # UDCA_16S
 
+Pipeline reproducible para análisis de datos 16S usando QIIME2.
+
+## Navegación
+
+- [Objetivo del análisis](#objetivo-del-análisis)
+- [Workflow](#workflow)
+- [Preparación de archivos](#preparación-de-archivos)
+- [Importación a QIIME2](#importación-a-qiime2)
+- [DADA2](#dada2)
+- [Asignación taxonómica](#asignación-taxonómica)
+- [Diversidad alfa y beta](#diversidad-alfa-y-beta)
+- [Scripts](#scripts)
+- [Repositorio](#repositorio)
+
+## Objetivo del análisis
+
+Este repositorio documenta el procesamiento bioinformático de secuencias 16S rRNA.
+
+## Workflow
+
+![Workflow](workflow.png)
+
+## Preparación de archivos
+
+Aquí van los comandos para renombrar los FASTQ.
+
+## Importación a QIIME2
+
+Aquí van los comandos `qiime tools import`.
+
+## DADA2
+
+Aquí van los comandos `qiime dada2 denoise-paired`.
+
+## Asignación taxonómica
+
+Aquí van los comandos de clasificación taxonómica.
+
+## Diversidad alfa y beta
+
+Aquí van los análisis de diversidad.
+
+## Scripts
+
+- [Script principal V3_V4](V3_V4)
+- [README en GitHub](https://github.com/bwilmar/UDCA_16S)
+
+## Repositorio
+
+Sitio generado con GitHub Pages.
+
 Copy and rename files to match QIIME2's expected Casava 1.8
 
 ```
